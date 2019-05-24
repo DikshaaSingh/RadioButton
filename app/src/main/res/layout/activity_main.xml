@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+
+    <RadioGroup
+        android:id="@+id/rgroup"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <RadioButton
+            android:id="@+id/mech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mechanical"
+            android:textSize="30dp"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Civil"
+            android:textSize="30dp"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Science"
+            android:textSize="30dp"
+
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/ec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Electrical"
+
+            android:textSize="30dp"
+           />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your selection:"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/btns"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
